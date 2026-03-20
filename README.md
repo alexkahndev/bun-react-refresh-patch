@@ -15,7 +15,7 @@ This is a patched build of Bun v1.3.11 that exposes `reactFastRefresh` on `Bun.T
 ```bash
 # Download the binary
 mkdir -p ~/.local/bin
-curl -L https://github.com/alexkahndev/bun-react-refresh-patch/raw/main/bun-patched -o ~/.local/bin/bun-patched
+curl -L https://github.com/alexkahndev/bun-react-refresh-patch/releases/download/v0.1.0/bun-patched -o ~/.local/bin/bun-patched
 chmod +x ~/.local/bin/bun-patched
 
 # Create a symlink for easy switching
